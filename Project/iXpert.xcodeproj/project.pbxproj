@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		117BF3DF151CFD9E000CF4BB /* Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 117BF3DE151CFD9E000CF4BB /* Hashes.m */; };
+		117BF3E2151CFDA6000CF4BB /* RatingSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 117BF3E1151CFDA6000CF4BB /* RatingSystem.m */; };
+		11B31E67150ABAF600856C10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B31E66150ABAF600856C10 /* UIKit.framework */; };
+		11B31E69150ABAF600856C10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B31E68150ABAF600856C10 /* Foundation.framework */; };
+		11B31E6B150ABAF600856C10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11B31E6A150ABAF600856C10 /* CoreGraphics.framework */; };
+		11B31E71150ABAF600856C10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11B31E6F150ABAF600856C10 /* InfoPlist.strings */; };
+		11B31E73150ABAF600856C10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B31E72150ABAF600856C10 /* main.m */; };
+		11B31EC7150ABC3400856C10 /* Back Button Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB1150ABC3400856C10 /* Back Button Norm.png */; };
+		11B31EC8150ABC3400856C10 /* Back Button Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB2150ABC3400856C10 /* Back Button Sele.png */; };
+		11B31EC9150ABC3400856C10 /* Button B64 Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB3150ABC3400856C10 /* Button B64 Norm.png */; };
+		11B31ECA150ABC3400856C10 /* Button B64 Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB4150ABC3400856C10 /* Button B64 Sele.png */; };
+		11B31ECB150ABC3400856C10 /* Button Bin Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB5150ABC3400856C10 /* Button Bin Norm.png */; };
+		11B31ECC150ABC3400856C10 /* Button Bin Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB6150ABC3400856C10 /* Button Bin Sele.png */; };
+		11B31ECD150ABC3400856C10 /* Button Dec Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB7150ABC3400856C10 /* Button Dec Norm.png */; };
+		11B31ECE150ABC3400856C10 /* Button Dec Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB8150ABC3400856C10 /* Button Dec Sele.png */; };
+		11B31ECF150ABC3400856C10 /* Button Enc Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EB9150ABC3400856C10 /* Button Enc Norm.png */; };
+		11B31ED0150ABC3400856C10 /* Button Enc Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EBA150ABC3400856C10 /* Button Enc Sele.png */; };
+		11B31ED1150ABC3400856C10 /* Button Hex Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EBB150ABC3400856C10 /* Button Hex Norm.png */; };
+		11B31ED2150ABC3400856C10 /* Button How to Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EBC150ABC3400856C10 /* Button How to Norm.png */; };
+		11B31ED3150ABC3400856C10 /* Button How to Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EBD150ABC3400856C10 /* Button How to Sele.png */; };
+		11B31ED4150ABC3400856C10 /* Button Hex Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EBE150ABC3400856C10 /* Button Hex Sele.png */; };
+		11B31ED5150ABC3400856C10 /* Button Loo Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EBF150ABC3400856C10 /* Button Loo Norm.png */; };
+		11B31ED6150ABC3400856C10 /* Button Loo Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC0150ABC3400856C10 /* Button Loo Sele.png */; };
+		11B31ED7150ABC3400856C10 /* Button MD5 Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC1150ABC3400856C10 /* Button MD5 Norm.png */; };
+		11B31ED8150ABC3400856C10 /* Button MD5 Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC2150ABC3400856C10 /* Button MD5 Sele.png */; };
+		11B31ED9150ABC3400856C10 /* Button Oct Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC3150ABC3400856C10 /* Button Oct Norm.png */; };
+		11B31EDA150ABC3400856C10 /* Button Oct Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC4150ABC3400856C10 /* Button Oct Sele.png */; };
+		11B31EDB150ABC3400856C10 /* Button Rev Norm.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC5150ABC3400856C10 /* Button Rev Norm.png */; };
+		11B31EDC150ABC3400856C10 /* Button Rev Sele.png in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EC6150ABC3400856C10 /* Button Rev Sele.png */; };
+		11B31EE8150ABC7300856C10 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EE3150ABC7300856C10 /* MainWindow.xib */; };
+		11B31EE9150ABC7300856C10 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EE4150ABC7300856C10 /* DetailViewController.xib */; };
+		11B31EEB150ABC7300856C10 /* HowtoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EE6150ABC7300856C10 /* HowtoViewController.xib */; };
+		11B31EEC150ABC7300856C10 /* OptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B31EE7150ABC7300856C10 /* OptionViewController.xib */; };
+		11B31EF9150ABC8B00856C10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B31EEE150ABC8B00856C10 /* AppDelegate.m */; };
+		11B31EFA150ABC8B00856C10 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B31EF0150ABC8B00856C10 /* DetailViewController.m */; };
+		11B31EFC150ABC8B00856C10 /* HowtoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B31EF4150ABC8B00856C10 /* HowtoViewController.m */; };
+		11B31EFD150ABC8B00856C10 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B31EF6150ABC8B00856C10 /* MasterViewController.m */; };
+		11B31EFE150ABC8B00856C10 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B31EF8150ABC8B00856C10 /* OptionViewController.m */; };
+		11C1CBE1150D2A8C0066DDF8 /* Background 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBD5150D2A8C0066DDF8 /* Background 1.png */; };
+		11C1CBE2150D2A8C0066DDF8 /* Background 2 B64.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBD6150D2A8C0066DDF8 /* Background 2 B64.png */; };
+		11C1CBE3150D2A8C0066DDF8 /* Background 2 Bin.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBD7150D2A8C0066DDF8 /* Background 2 Bin.png */; };
+		11C1CBE4150D2A8C0066DDF8 /* Background 2 Bin2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBD8150D2A8C0066DDF8 /* Background 2 Bin2.png */; };
+		11C1CBE5150D2A8C0066DDF8 /* Background 2 Hex.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBD9150D2A8C0066DDF8 /* Background 2 Hex.png */; };
+		11C1CBE6150D2A8C0066DDF8 /* Background 2 Hex2.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBDA150D2A8C0066DDF8 /* Background 2 Hex2.png */; };
+		11C1CBE7150D2A8C0066DDF8 /* Background 2 Loo.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBDB150D2A8C0066DDF8 /* Background 2 Loo.png */; };
+		11C1CBE8150D2A8C0066DDF8 /* Background 2 MD5.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBDC150D2A8C0066DDF8 /* Background 2 MD5.png */; };
+		11C1CBE9150D2A8C0066DDF8 /* Background 2 Oct.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBDD150D2A8C0066DDF8 /* Background 2 Oct.png */; };
+		11C1CBEA150D2A8C0066DDF8 /* Background 2 Rev.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBDE150D2A8C0066DDF8 /* Background 2 Rev.png */; };
+		11C1CBEC150D2A8C0066DDF8 /* Background 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBE0150D2A8C0066DDF8 /* Background 3.png */; };
+		11C1CBEE150D2AA30066DDF8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBED150D2AA30066DDF8 /* Default.png */; };
+		11C1CBF0150D2AAB0066DDF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11C1CBEF150D2AAB0066DDF8 /* Default@2x.png */; };
+		11D23865151FAAA000427740 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23860151FAAA000427740 /* Icon-72.png */; };
+		11D23866151FAAA000427740 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23861151FAAA000427740 /* Icon-Small-50.png */; };
+		11D23867151FAAA000427740 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23862151FAAA000427740 /* Icon-Small.png */; };
+		11D23868151FAAA000427740 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D23863151FAAA000427740 /* Icon-Small@2x.png */; };
+		11D23869151FAAA000427740 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 11D23864151FAAA000427740 /* iTunesArtwork */; };
+		11D2386B151FAAB100427740 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D2386A151FAAB100427740 /* Icon.png */; };
+		11D2386D151FAAB700427740 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 11D2386C151FAAB700427740 /* Icon@2x.png */; };
+		11DA302B153A273A000E3C4D /* AccView Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 11DA302A153A273A000E3C4D /* AccView Background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		117BF3DD151CFD9E000CF4BB /* Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hashes.h; sourceTree = "<group>"; };
+		117BF3DE151CFD9E000CF4BB /* Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hashes.m; sourceTree = "<group>"; };
+		117BF3E0151CFDA6000CF4BB /* RatingSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingSystem.h; sourceTree = "<group>"; };
+		117BF3E1151CFDA6000CF4BB /* RatingSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingSystem.m; sourceTree = "<group>"; };
+		11B31E62150ABAF600856C10 /* iXpert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iXpert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B31E66150ABAF600856C10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11B31E68150ABAF600856C10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11B31E6A150ABAF600856C10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11B31E6E150ABAF600856C10 /* iXpert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iXpert-Info.plist"; sourceTree = "<group>"; };
+		11B31E70150ABAF600856C10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		11B31E72150ABAF600856C10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11B31E74150ABAF600856C10 /* iXpert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iXpert-Prefix.pch"; sourceTree = "<group>"; };
+		11B31EB1150ABC3400856C10 /* Back Button Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button Norm.png"; sourceTree = "<group>"; };
+		11B31EB2150ABC3400856C10 /* Back Button Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button Sele.png"; sourceTree = "<group>"; };
+		11B31EB3150ABC3400856C10 /* Button B64 Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button B64 Norm.png"; sourceTree = "<group>"; };
+		11B31EB4150ABC3400856C10 /* Button B64 Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button B64 Sele.png"; sourceTree = "<group>"; };
+		11B31EB5150ABC3400856C10 /* Button Bin Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Bin Norm.png"; sourceTree = "<group>"; };
+		11B31EB6150ABC3400856C10 /* Button Bin Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Bin Sele.png"; sourceTree = "<group>"; };
+		11B31EB7150ABC3400856C10 /* Button Dec Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Dec Norm.png"; sourceTree = "<group>"; };
+		11B31EB8150ABC3400856C10 /* Button Dec Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Dec Sele.png"; sourceTree = "<group>"; };
+		11B31EB9150ABC3400856C10 /* Button Enc Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Enc Norm.png"; sourceTree = "<group>"; };
+		11B31EBA150ABC3400856C10 /* Button Enc Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Enc Sele.png"; sourceTree = "<group>"; };
+		11B31EBB150ABC3400856C10 /* Button Hex Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Hex Norm.png"; sourceTree = "<group>"; };
+		11B31EBC150ABC3400856C10 /* Button How to Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button How to Norm.png"; sourceTree = "<group>"; };
+		11B31EBD150ABC3400856C10 /* Button How to Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button How to Sele.png"; sourceTree = "<group>"; };
+		11B31EBE150ABC3400856C10 /* Button Hex Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Hex Sele.png"; sourceTree = "<group>"; };
+		11B31EBF150ABC3400856C10 /* Button Loo Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Loo Norm.png"; sourceTree = "<group>"; };
+		11B31EC0150ABC3400856C10 /* Button Loo Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Loo Sele.png"; sourceTree = "<group>"; };
+		11B31EC1150ABC3400856C10 /* Button MD5 Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button MD5 Norm.png"; sourceTree = "<group>"; };
+		11B31EC2150ABC3400856C10 /* Button MD5 Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button MD5 Sele.png"; sourceTree = "<group>"; };
+		11B31EC3150ABC3400856C10 /* Button Oct Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Oct Norm.png"; sourceTree = "<group>"; };
+		11B31EC4150ABC3400856C10 /* Button Oct Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Oct Sele.png"; sourceTree = "<group>"; };
+		11B31EC5150ABC3400856C10 /* Button Rev Norm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Rev Norm.png"; sourceTree = "<group>"; };
+		11B31EC6150ABC3400856C10 /* Button Rev Sele.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button Rev Sele.png"; sourceTree = "<group>"; };
+		11B31EE3150ABC7300856C10 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		11B31EE4150ABC7300856C10 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		11B31EE6150ABC7300856C10 /* HowtoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowtoViewController.xib; sourceTree = "<group>"; };
+		11B31EE7150ABC7300856C10 /* OptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionViewController.xib; sourceTree = "<group>"; };
+		11B31EED150ABC8B00856C10 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11B31EEE150ABC8B00856C10 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11B31EEF150ABC8B00856C10 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		11B31EF0150ABC8B00856C10 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		11B31EF3150ABC8B00856C10 /* HowtoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HowtoViewController.h; sourceTree = "<group>"; };
+		11B31EF4150ABC8B00856C10 /* HowtoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HowtoViewController.m; sourceTree = "<group>"; };
+		11B31EF5150ABC8B00856C10 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		11B31EF6150ABC8B00856C10 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		11B31EF7150ABC8B00856C10 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		11B31EF8150ABC8B00856C10 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		11C1CBD5150D2A8C0066DDF8 /* Background 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 1.png"; sourceTree = "<group>"; };
+		11C1CBD6150D2A8C0066DDF8 /* Background 2 B64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 B64.png"; sourceTree = "<group>"; };
+		11C1CBD7150D2A8C0066DDF8 /* Background 2 Bin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Bin.png"; sourceTree = "<group>"; };
+		11C1CBD8150D2A8C0066DDF8 /* Background 2 Bin2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Bin2.png"; sourceTree = "<group>"; };
+		11C1CBD9150D2A8C0066DDF8 /* Background 2 Hex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Hex.png"; sourceTree = "<group>"; };
+		11C1CBDA150D2A8C0066DDF8 /* Background 2 Hex2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Hex2.png"; sourceTree = "<group>"; };
+		11C1CBDB150D2A8C0066DDF8 /* Background 2 Loo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Loo.png"; sourceTree = "<group>"; };
+		11C1CBDC150D2A8C0066DDF8 /* Background 2 MD5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 MD5.png"; sourceTree = "<group>"; };
+		11C1CBDD150D2A8C0066DDF8 /* Background 2 Oct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Oct.png"; sourceTree = "<group>"; };
+		11C1CBDE150D2A8C0066DDF8 /* Background 2 Rev.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2 Rev.png"; sourceTree = "<group>"; };
+		11C1CBE0150D2A8C0066DDF8 /* Background 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 3.png"; sourceTree = "<group>"; };
+		11C1CBED150D2AA30066DDF8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		11C1CBEF150D2AAB0066DDF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		11D23860151FAAA000427740 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		11D23861151FAAA000427740 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		11D23862151FAAA000427740 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		11D23863151FAAA000427740 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		11D23864151FAAA000427740 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		11D2386A151FAAB100427740 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		11D2386C151FAAB700427740 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		11DA302A153A273A000E3C4D /* AccView Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AccView Background.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B31E5F150ABAF600856C10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B31E67150ABAF600856C10 /* UIKit.framework in Frameworks */,
+				11B31E69150ABAF600856C10 /* Foundation.framework in Frameworks */,
+				11B31E6B150ABAF600856C10 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B31E57150ABAF600856C10 = {
+			isa = PBXGroup;
+			children = (
+				11B31E6C150ABAF600856C10 /* iXpert */,
+				11B31E65150ABAF600856C10 /* Frameworks */,
+				11B31E63150ABAF600856C10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B31E63150ABAF600856C10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B31E62150ABAF600856C10 /* iXpert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B31E65150ABAF600856C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11B31E66150ABAF600856C10 /* UIKit.framework */,
+				11B31E68150ABAF600856C10 /* Foundation.framework */,
+				11B31E6A150ABAF600856C10 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11B31E6C150ABAF600856C10 /* iXpert */ = {
+			isa = PBXGroup;
+			children = (
+				11B31E89150ABB4E00856C10 /* Hashes Functions */,
+				11B31E87150ABB3500856C10 /* Rating System */,
+				11B31EED150ABC8B00856C10 /* AppDelegate.h */,
+				11B31EEE150ABC8B00856C10 /* AppDelegate.m */,
+				11B31EEF150ABC8B00856C10 /* DetailViewController.h */,
+				11B31EF0150ABC8B00856C10 /* DetailViewController.m */,
+				11B31EF3150ABC8B00856C10 /* HowtoViewController.h */,
+				11B31EF4150ABC8B00856C10 /* HowtoViewController.m */,
+				11B31EF5150ABC8B00856C10 /* MasterViewController.h */,
+				11B31EF6150ABC8B00856C10 /* MasterViewController.m */,
+				11B31EF7150ABC8B00856C10 /* OptionViewController.h */,
+				11B31EF8150ABC8B00856C10 /* OptionViewController.m */,
+				11B31E6D150ABAF600856C10 /* Supporting Files */,
+			);
+			path = iXpert;
+			sourceTree = "<group>";
+		};
+		11B31E6D150ABAF600856C10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B31E8A150ABB8A00856C10 /* Images */,
+				11B31E8F150ABBE400856C10 /* Xib */,
+				11B31E6E150ABAF600856C10 /* iXpert-Info.plist */,
+				11B31E6F150ABAF600856C10 /* InfoPlist.strings */,
+				11B31E72150ABAF600856C10 /* main.m */,
+				11B31E74150ABAF600856C10 /* iXpert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B31E87150ABB3500856C10 /* Rating System */ = {
+			isa = PBXGroup;
+			children = (
+				117BF3E0151CFDA6000CF4BB /* RatingSystem.h */,
+				117BF3E1151CFDA6000CF4BB /* RatingSystem.m */,
+			);
+			name = "Rating System";
+			sourceTree = "<group>";
+		};
+		11B31E89150ABB4E00856C10 /* Hashes Functions */ = {
+			isa = PBXGroup;
+			children = (
+				117BF3DD151CFD9E000CF4BB /* Hashes.h */,
+				117BF3DE151CFD9E000CF4BB /* Hashes.m */,
+			);
+			name = "Hashes Functions";
+			sourceTree = "<group>";
+		};
+		11B31E8A150ABB8A00856C10 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				11B31E8E150ABBA000856C10 /* AccessoryView */,
+				11B31E8D150ABB9800856C10 /* Backgrounds */,
+				11B31E8C150ABB9500856C10 /* Buttons */,
+				11B31E8B150ABB9200856C10 /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		11B31E8B150ABB9200856C10 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				11D2386A151FAAB100427740 /* Icon.png */,
+				11D2386C151FAAB700427740 /* Icon@2x.png */,
+				11D23860151FAAA000427740 /* Icon-72.png */,
+				11D23861151FAAA000427740 /* Icon-Small-50.png */,
+				11D23862151FAAA000427740 /* Icon-Small.png */,
+				11D23863151FAAA000427740 /* Icon-Small@2x.png */,
+				11D23864151FAAA000427740 /* iTunesArtwork */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		11B31E8C150ABB9500856C10 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				11B31EB1150ABC3400856C10 /* Back Button Norm.png */,
+				11B31EB2150ABC3400856C10 /* Back Button Sele.png */,
+				11B31EB3150ABC3400856C10 /* Button B64 Norm.png */,
+				11B31EB4150ABC3400856C10 /* Button B64 Sele.png */,
+				11B31EB5150ABC3400856C10 /* Button Bin Norm.png */,
+				11B31EB6150ABC3400856C10 /* Button Bin Sele.png */,
+				11B31EB7150ABC3400856C10 /* Button Dec Norm.png */,
+				11B31EB8150ABC3400856C10 /* Button Dec Sele.png */,
+				11B31EB9150ABC3400856C10 /* Button Enc Norm.png */,
+				11B31EBA150ABC3400856C10 /* Button Enc Sele.png */,
+				11B31EBB150ABC3400856C10 /* Button Hex Norm.png */,
+				11B31EBC150ABC3400856C10 /* Button How to Norm.png */,
+				11B31EBD150ABC3400856C10 /* Button How to Sele.png */,
+				11B31EBE150ABC3400856C10 /* Button Hex Sele.png */,
+				11B31EBF150ABC3400856C10 /* Button Loo Norm.png */,
+				11B31EC0150ABC3400856C10 /* Button Loo Sele.png */,
+				11B31EC1150ABC3400856C10 /* Button MD5 Norm.png */,
+				11B31EC2150ABC3400856C10 /* Button MD5 Sele.png */,
+				11B31EC3150ABC3400856C10 /* Button Oct Norm.png */,
+				11B31EC4150ABC3400856C10 /* Button Oct Sele.png */,
+				11B31EC5150ABC3400856C10 /* Button Rev Norm.png */,
+				11B31EC6150ABC3400856C10 /* Button Rev Sele.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		11B31E8D150ABB9800856C10 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				11C1CBED150D2AA30066DDF8 /* Default.png */,
+				11C1CBEF150D2AAB0066DDF8 /* Default@2x.png */,
+				11C1CBD5150D2A8C0066DDF8 /* Background 1.png */,
+				11C1CBD6150D2A8C0066DDF8 /* Background 2 B64.png */,
+				11C1CBD7150D2A8C0066DDF8 /* Background 2 Bin.png */,
+				11C1CBD8150D2A8C0066DDF8 /* Background 2 Bin2.png */,
+				11C1CBD9150D2A8C0066DDF8 /* Background 2 Hex.png */,
+				11C1CBDA150D2A8C0066DDF8 /* Background 2 Hex2.png */,
+				11C1CBDB150D2A8C0066DDF8 /* Background 2 Loo.png */,
+				11C1CBDC150D2A8C0066DDF8 /* Background 2 MD5.png */,
+				11C1CBDD150D2A8C0066DDF8 /* Background 2 Oct.png */,
+				11C1CBDE150D2A8C0066DDF8 /* Background 2 Rev.png */,
+				11C1CBE0150D2A8C0066DDF8 /* Background 3.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		11B31E8E150ABBA000856C10 /* AccessoryView */ = {
+			isa = PBXGroup;
+			children = (
+				11DA302A153A273A000E3C4D /* AccView Background.png */,
+			);
+			name = AccessoryView;
+			sourceTree = "<group>";
+		};
+		11B31E8F150ABBE400856C10 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				11B31EE3150ABC7300856C10 /* MainWindow.xib */,
+				11B31EE4150ABC7300856C10 /* DetailViewController.xib */,
+				11B31EE6150ABC7300856C10 /* HowtoViewController.xib */,
+				11B31EE7150ABC7300856C10 /* OptionViewController.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B31E61150ABAF600856C10 /* iXpert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B31E7A150ABAF600856C10 /* Build configuration list for PBXNativeTarget "iXpert" */;
+			buildPhases = (
+				11B31E5E150ABAF600856C10 /* Sources */,
+				11B31E5F150ABAF600856C10 /* Frameworks */,
+				11B31E60150ABAF600856C10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iXpert;
+			productName = iXpert;
+			productReference = 11B31E62150ABAF600856C10 /* iXpert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B31E59150ABAF600856C10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 11B31E5C150ABAF600856C10 /* Build configuration list for PBXProject "iXpert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 11B31E57150ABAF600856C10;
+			productRefGroup = 11B31E63150ABAF600856C10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B31E61150ABAF600856C10 /* iXpert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B31E60150ABAF600856C10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B31E71150ABAF600856C10 /* InfoPlist.strings in Resources */,
+				11B31EC7150ABC3400856C10 /* Back Button Norm.png in Resources */,
+				11B31EC8150ABC3400856C10 /* Back Button Sele.png in Resources */,
+				11B31EC9150ABC3400856C10 /* Button B64 Norm.png in Resources */,
+				11B31ECA150ABC3400856C10 /* Button B64 Sele.png in Resources */,
+				11B31ECB150ABC3400856C10 /* Button Bin Norm.png in Resources */,
+				11B31ECC150ABC3400856C10 /* Button Bin Sele.png in Resources */,
+				11B31ECD150ABC3400856C10 /* Button Dec Norm.png in Resources */,
+				11B31ECE150ABC3400856C10 /* Button Dec Sele.png in Resources */,
+				11B31ECF150ABC3400856C10 /* Button Enc Norm.png in Resources */,
+				11B31ED0150ABC3400856C10 /* Button Enc Sele.png in Resources */,
+				11B31ED1150ABC3400856C10 /* Button Hex Norm.png in Resources */,
+				11B31ED2150ABC3400856C10 /* Button How to Norm.png in Resources */,
+				11B31ED3150ABC3400856C10 /* Button How to Sele.png in Resources */,
+				11B31ED4150ABC3400856C10 /* Button Hex Sele.png in Resources */,
+				11B31ED5150ABC3400856C10 /* Button Loo Norm.png in Resources */,
+				11B31ED6150ABC3400856C10 /* Button Loo Sele.png in Resources */,
+				11B31ED7150ABC3400856C10 /* Button MD5 Norm.png in Resources */,
+				11B31ED8150ABC3400856C10 /* Button MD5 Sele.png in Resources */,
+				11B31ED9150ABC3400856C10 /* Button Oct Norm.png in Resources */,
+				11B31EDA150ABC3400856C10 /* Button Oct Sele.png in Resources */,
+				11B31EDB150ABC3400856C10 /* Button Rev Norm.png in Resources */,
+				11B31EDC150ABC3400856C10 /* Button Rev Sele.png in Resources */,
+				11B31EE8150ABC7300856C10 /* MainWindow.xib in Resources */,
+				11B31EE9150ABC7300856C10 /* DetailViewController.xib in Resources */,
+				11B31EEB150ABC7300856C10 /* HowtoViewController.xib in Resources */,
+				11B31EEC150ABC7300856C10 /* OptionViewController.xib in Resources */,
+				11C1CBE1150D2A8C0066DDF8 /* Background 1.png in Resources */,
+				11C1CBE2150D2A8C0066DDF8 /* Background 2 B64.png in Resources */,
+				11C1CBE3150D2A8C0066DDF8 /* Background 2 Bin.png in Resources */,
+				11C1CBE4150D2A8C0066DDF8 /* Background 2 Bin2.png in Resources */,
+				11C1CBE5150D2A8C0066DDF8 /* Background 2 Hex.png in Resources */,
+				11C1CBE6150D2A8C0066DDF8 /* Background 2 Hex2.png in Resources */,
+				11C1CBE7150D2A8C0066DDF8 /* Background 2 Loo.png in Resources */,
+				11C1CBE8150D2A8C0066DDF8 /* Background 2 MD5.png in Resources */,
+				11C1CBE9150D2A8C0066DDF8 /* Background 2 Oct.png in Resources */,
+				11C1CBEA150D2A8C0066DDF8 /* Background 2 Rev.png in Resources */,
+				11C1CBEC150D2A8C0066DDF8 /* Background 3.png in Resources */,
+				11C1CBEE150D2AA30066DDF8 /* Default.png in Resources */,
+				11C1CBF0150D2AAB0066DDF8 /* Default@2x.png in Resources */,
+				11D23865151FAAA000427740 /* Icon-72.png in Resources */,
+				11D23866151FAAA000427740 /* Icon-Small-50.png in Resources */,
+				11D23867151FAAA000427740 /* Icon-Small.png in Resources */,
+				11D23868151FAAA000427740 /* Icon-Small@2x.png in Resources */,
+				11D23869151FAAA000427740 /* iTunesArtwork in Resources */,
+				11D2386B151FAAB100427740 /* Icon.png in Resources */,
+				11D2386D151FAAB700427740 /* Icon@2x.png in Resources */,
+				11DA302B153A273A000E3C4D /* AccView Background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B31E5E150ABAF600856C10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B31E73150ABAF600856C10 /* main.m in Sources */,
+				11B31EF9150ABC8B00856C10 /* AppDelegate.m in Sources */,
+				11B31EFA150ABC8B00856C10 /* DetailViewController.m in Sources */,
+				11B31EFC150ABC8B00856C10 /* HowtoViewController.m in Sources */,
+				11B31EFD150ABC8B00856C10 /* MasterViewController.m in Sources */,
+				11B31EFE150ABC8B00856C10 /* OptionViewController.m in Sources */,
+				117BF3DF151CFD9E000CF4BB /* Hashes.m in Sources */,
+				117BF3E2151CFDA6000CF4BB /* RatingSystem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11B31E6F150ABAF600856C10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B31E70150ABAF600856C10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B31E78150ABAF600856C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		11B31E79150ABAF600856C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B31E7B150ABAF600856C10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iXpert/iXpert-Prefix.pch";
+				INFOPLIST_FILE = "iXpert/iXpert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		11B31E7C150ABAF600856C10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iXpert/iXpert-Prefix.pch";
+				INFOPLIST_FILE = "iXpert/iXpert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B31E5C150ABAF600856C10 /* Build configuration list for PBXProject "iXpert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B31E78150ABAF600856C10 /* Debug */,
+				11B31E79150ABAF600856C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B31E7A150ABAF600856C10 /* Build configuration list for PBXNativeTarget "iXpert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B31E7B150ABAF600856C10 /* Debug */,
+				11B31E7C150ABAF600856C10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B31E59150ABAF600856C10 /* Project object */;
+}
